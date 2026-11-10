@@ -1,129 +1,230 @@
 
+<div align="center">
 
-# Prerequisites
+# SPRING BOOT BACKEND ROADMAP
 
-Before starting the Spring Boot Backend Roadmap, make sure you are familiar with the essential tools, technologies, and concepts listed below.
+### PREREQUISITES
 
-These prerequisites will help you set up your development environment, understand the fundamentals of web development, and prepare for the upcoming learning levels.
+**Your journey to becoming a Java Backend Developer starts here.**
 
----
+A carefully curated collection of essential tools, technologies, and fundamental concepts you need before diving into the Spring ecosystem.
 
-## 1. Introduction to Java
+[Main Roadmap](../README.md) • [Beginner Level](../Beginner/README.md)
 
-Start by understanding what Java is, its main features, and the role of the JVM in executing Java applications.
-
-| Resource | Notes |
-|---|---|
-| [Java Introduction & JVM Overview](https://www.youtube.com/watch?v=Mm9mrVzl2lM) | Required |
+</div>
 
 ---
 
-## 2. Development Environment Setup
+## TABLE OF CONTENTS
 
-Before writing Java applications, you need to prepare your development environment by installing the required tools.
-
-| Resource | Notes |
-|---|---|
-| [JDK Installation & IntelliJ IDEA Setup](https://www.youtube.com/watch?v=uJ37kFgFojw) | Required |
-
-**Make sure you have:**
-- JDK installed and properly configured.
-- IntelliJ IDEA installed.
-- A working Java development environment.
+| # | Section | Priority |
+|:---:|---|:---:|
+| 01 | [Java & JVM Introduction](#01--java--jvm-introduction) | Required |
+| 02 | [Development Environment Setup](#02--development-environment-setup) | Required |
+| 03 | [Version Control – Git & GitHub](#03--version-control--git--github) | Required |
+| 04 | [Build Automation – Maven](#04--build-automation--maven) | Required |
+| 05 | [Web Fundamentals](#05--web-fundamentals) | Required |
+| 06 | [Data Exchange Formats – JSON & XML](#06--data-exchange-formats--json--xml) | Required |
+| 07 | [Networking Fundamentals](#07--networking-fundamentals) | Recommended |
 
 ---
 
-## 3. Git & GitHub
+## ABOUT THIS STAGE
 
-Learn the basics of version control and how to manage your source code using Git and GitHub.
+Before starting your Spring Boot journey, you need to become familiar with the development tools and fundamental concepts used throughout the Java Backend ecosystem.
 
-| Resource | Notes |
+This stage is designed to help you:
+
+- Understand the Java ecosystem and its runtime environment.
+- Set up a proper Java development environment.
+- Manage your source code using Git and GitHub.
+- Understand how Maven manages Java projects and dependencies.
+- Learn how web applications communicate.
+- Understand common data formats and basic networking concepts.
+
+> **Important:** This stage focuses on preparation and essential concepts. A deeper study of Java programming, OOP, and other core development topics will be covered in the Beginner Level.
+
+---
+
+## LEARNING PATH
+
+### 01 — Java & JVM Introduction
+
+**Objective:** Understand the Java ecosystem and how Java applications run.
+
+| Learning Resources | Type |
 |---|---|
-| [Git & GitHub Fundamentals](https://www.youtube.com/watch?v=N7qWNQxFq90) | Required |
+| [Java & JVM Introduction](https://www.youtube.com/watch?v=Mm9mrVzl2lM) | Video |
 
-**Key Topics:**
-- What is Version Control?
+**Topics to Understand**
+
+- What is Java?
+- Java Platform Overview.
+- What is the JVM?
+- JDK vs. JRE vs. JVM.
+- How Java code is compiled and executed.
+
+---
+
+### 02 — Development Environment Setup
+
+**Objective:** Prepare your machine for Java development.
+
+| Learning Resources | Type |
+|---|---|
+| [JDK Installation & IntelliJ IDEA Setup](https://www.youtube.com/watch?v=uJ37kFgFojw) | Video |
+
+**Setup Checklist**
+
+- [ ] Install the JDK.
+- [ ] Configure Java environment variables.
+- [ ] Verify the Java installation.
+- [ ] Install IntelliJ IDEA.
+- [ ] Create and run your first Java project.
+
+---
+
+### 03 — Version Control – Git & GitHub
+
+**Objective:** Learn how to track changes, manage source code, and collaborate on software projects.
+
+| Learning Resources | Type |
+|---|---|
+| [Git & GitHub Fundamentals](https://www.youtube.com/watch?v=N7qWNQxFq90) | Video |
+
+**Topics to Understand**
+
+- Version Control Systems.
 - Git vs. GitHub.
-- Creating and cloning repositories.
-- Basic Git commands.
-- Committing and pushing changes.
-- Working with branches.
+- Repository Fundamentals.
+- Basic Git Commands.
+- Staging and Committing.
+- Branching and Merging.
+- Remote Repositories.
+- Push, Pull, and Clone.
 
 ---
 
-## 4. Maven Basics
+### 04 — Build Automation – Maven
 
-Understand Maven as a build automation and dependency management tool used in Java projects.
+**Objective:** Understand how Java projects are built and how external dependencies are managed.
 
-| Resource | Notes |
+| Learning Resources | Type |
 |---|---|
-| [Maven Fundamentals](https://www.youtube.com/watch?v=5QY5v2vLyfI) | Required |
+| [Maven Fundamentals](https://www.youtube.com/watch?v=5QY5v2vLyfI) | Video |
 
-**Key Topics:**
+**Topics to Understand**
+
 - What is Maven?
-- Project Structure.
-- `pom.xml`.
+- Maven Project Structure.
+- The `pom.xml` File.
 - Dependencies and Dependency Management.
-- Maven Lifecycle.
-- Build and Run Maven Projects.
+- Maven Repositories.
+- Maven Build Lifecycle.
+- Common Maven Commands.
 
 ---
 
-## 5. HTTP & Web Fundamentals
+### 05 — Web Fundamentals
 
-Understanding how the web works is essential before diving into backend development and building REST APIs.
+**Objective:** Understand the basic concepts behind web communication before building backend applications and REST APIs.
 
-| Resource | Notes |
+| Learning Resources | Type |
 |---|---|
-| [HTTP, HTTPS & DNS – Elzero Web School](https://www.youtube.com/results?search_query=Elzero+HTTP+HTTPS+DNS) | Required |
+| [HTTP, HTTPS & DNS – Elzero Web School](https://www.youtube.com/results?search_query=Elzero+HTTP+HTTPS+DNS) | Learning Resources |
 
-**Key Topics:**
+**Topics to Understand**
+
 - How the Web Works.
 - Client-Server Architecture.
 - HTTP vs. HTTPS.
 - DNS and Domain Names.
-- HTTP Request & Response.
+- HTTP Requests and Responses.
 - HTTP Methods.
 - HTTP Status Codes.
+- Headers and Request Bodies.
 
 ---
 
-## 6. JSON & XML
+### 06 — Data Exchange Formats – JSON & XML
 
-Get familiar with common data exchange formats used in backend applications and API communication.
+**Objective:** Understand how data is structured and exchanged between different applications and services.
 
-| Resource | Notes |
+| Learning Resources | Type |
 |---|---|
-| [JSON & XML Fundamentals](https://www.youtube.com/watch?v=TfFqVAYRquc) | Required |
+| [JSON & XML Fundamentals](https://www.youtube.com/watch?v=TfFqVAYRquc) | Video |
 
-**Key Topics:**
+**Topics to Understand**
+
 - What is JSON?
-- JSON Data Types.
 - JSON Objects and Arrays.
+- JSON Data Types.
+- JSON Structure and Syntax.
 - What is XML?
-- XML Structure and Elements.
+- XML Elements and Attributes.
 - JSON vs. XML.
 
 ---
 
-## 7. Networking Fundamentals
+### 07 — Networking Fundamentals
 
-Build a basic understanding of networking concepts to understand how applications communicate over the internet.
+**Objective:** Build a basic understanding of how devices and applications communicate over networks.
 
-| Resource | Notes |
+| Learning Resources | Type |
 |---|---|
-| [Networking for Web Developers](https://www.youtube.com/playlist?list=PLNE3WjwctlOy1ekMfZl9AbLyFivSgsfml) | Recommended |
+| [Networking for Web Developers](https://www.youtube.com/playlist?list=PLNE3WjwctlOy1ekMfZl9AbLyFivSgsfml) | Playlist |
+
+**Topics to Understand**
+
+- Introduction to Computer Networks.
+- IP Addresses.
+- Ports and Protocols.
+- TCP vs. UDP.
+- OSI and TCP/IP Models.
+- Client-Server Communication.
 
 ---
 
-## What's Next?
+## COMPLETION CHECKLIST
 
-Once you have completed these prerequisites, you're ready to start the **Beginner Level**, where you will build a strong foundation in Java programming and object-oriented programming.
+Before moving to the next level, make sure you can:
 
-<p align="center">
-  <a href="../Beginner/README.md"><strong>Go to Beginner Level →</strong></a>
-</p>
+- [ ] Explain the difference between JDK, JRE, and JVM.
+- [ ] Set up and run a Java project using IntelliJ IDEA.
+- [ ] Use Git to manage and track your source code.
+- [ ] Create a Maven project and understand its `pom.xml`.
+- [ ] Explain the basic HTTP request-response lifecycle.
+- [ ] Understand JSON and XML structures.
+- [ ] Explain basic networking concepts and the role of ports.
 
-<p align="center">
-  <a href="../README.md">← Back to Main Roadmap</a>
-</p>
+---
+
+## WHAT'S NEXT?
+
+<blockquote>
+
+**Ready to start writing Java code?**
+
+Once you have completed the prerequisites, you are ready to move on to the **Beginner Level**, where you will build your programming foundation, master Java fundamentals, and learn Object-Oriented Programming.
+
+</blockquote>
+
+<div align="center">
+
+### CONTINUE YOUR JOURNEY
+
+[**START BEGINNER LEVEL →**](../Beginner/README.md)
+
+[← Back to Main Roadmap](../README.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**SPRING BOOT BACKEND ROADMAP**
+
+*Learn • Build • Practice • Improve*
+
+</div>
