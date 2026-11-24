@@ -611,17 +611,14 @@ Deploy a Spring Boot application to a VPS, configure a domain and HTTPS, and aut
 
 ---
 
-### 14 — Recommended Books
+### 14— Recommended Books
 
-This section is reserved for books and additional learning references that will be uploaded to the repository.
+This section is reserved for books and additional references that will be uploaded to the repository.
 
 | Resource | Notes |
 |---|---|
-| Spring Boot Books | To be added |
-| Spring Security Books | To be added |
-| Software Architecture Books | To be added |
-| Design Patterns Books | To be added |
-| Docker & DevOps Books | To be added |
+|[ Book Collection](https://drive.google.com/drive/folders/14pbOx1MbINAvMaVVWqRSjNmgvnuLiBWK?usp=drive_link) | To be added |
+| Additional References | To be added |
 
 ---
 
