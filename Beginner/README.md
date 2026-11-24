@@ -309,7 +309,7 @@ This section is reserved for books and additional references that will be upload
 
 | Resource | Notes |
 |---|---|
-| Book Collection | To be added |
+|[ Book Collection](https://drive.google.com/drive/folders/14pbOx1MbINAvMaVVWqRSjNmgvnuLiBWK?usp=drive_link) | To be added |
 | Additional References | To be added |
 
 ---
