@@ -323,6 +323,7 @@ This section is reserved for books and additional learning references that will 
 
 | Resource | Notes |
 |---|---|
+|[ Book Collection](https://drive.google.com/drive/folders/14pbOx1MbINAvMaVVWqRSjNmgvnuLiBWK?usp=drive_link) |
 | Database Books | To be added |
 | SQL References | To be added |
 | JDBC Books | To be added |
@@ -330,6 +331,7 @@ This section is reserved for books and additional learning references that will 
 | Spring Framework Books | To be added |
 
 ---
+
 
 ## COMPLETION CHECKLIST
 
